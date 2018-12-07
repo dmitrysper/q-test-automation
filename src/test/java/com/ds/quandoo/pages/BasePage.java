@@ -114,7 +114,7 @@ public abstract class BasePage {
 		}
 	}
 
-	void shotDelayExecution() {
+	void shortDelayExecution() {
 		try {
 			Thread.sleep(SHORT_DELAY);
 		} catch (InterruptedException e) {
