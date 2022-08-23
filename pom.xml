@@ -43,9 +43,9 @@
       <version>${cucumber.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.jayway.restassured</groupId>
+      <groupId>io.rest-assured</groupId>
       <artifactId>rest-assured</artifactId>
-      <version>2.9.0</version>
+      <version>3.3.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.code.gson</groupId>
