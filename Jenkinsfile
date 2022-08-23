@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    tools {
+          maven 'MAVEN_HOME'
+          jdk 'JAVA_HOME'
+    }
     options {
         timeout(time: 30, unit: 'MINUTES')
         disableConcurrentBuilds()
